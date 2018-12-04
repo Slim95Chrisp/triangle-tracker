@@ -12,6 +12,7 @@ the syntax. Using the Chrome console & JSFiddle helped.
 ## Setup Instructions
 Input the length values in the form and click Submit.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Click on Reset to clear the form. 
 ## Behaviour Driven Development  
 I established that the application should handle four categories of triangles;
@@ -19,6 +20,8 @@ equilateral, isosceles, scalene and no triangle, when it receives 3 equal length
 2 equal lengths; no equal length; and 2 lengths whose sum is equal or less than
 a third side. It should return equilateral, isosceles, scalene or no triangle.
 =======
+=======
+>>>>>>> gh-pages
 ## Behaviour Driven Development
 |Behaviour                | Input Example  | Output Example     |
 |Application should handle|When it receives| It should return   |
@@ -27,6 +30,17 @@ a third side. It should return equilateral, isosceles, scalene or no triangle.
 |Isosceles                |5,5,6           |Isosceles Triangle  |
 |Scalene                  |5,4,3           |Scalene Triangle    |
 |No Triangle              |5,5,5           |Not a Triangle      |
+<<<<<<< HEAD
+>>>>>>> gh-pages
+=======
+=======
+Click on Reset to clear the form. 
+## Behaviour Driven Development  
+I established that the application should handle four categories of triangles;
+equilateral, isosceles, scalene and no triangle, when it receives 3 equal lengths;
+2 equal lengths; no equal length; and 2 lengths whose sum is equal or less than
+a third side. It should return equilateral, isosceles, scalene or no triangle.
+>>>>>>> 2227de6c9a0332f4357a1bb246d506ff10763cc1
 >>>>>>> gh-pages
 ### License
 *MIT License*

@@ -11,12 +11,23 @@ Safari would be used to launch the applicaction. The challenge was editing
 the syntax. Using the Chrome console & JSFiddle helped.
 ## Setup Instructions
 Input the length values in the form and click Submit.
+<<<<<<< HEAD
 Click on Reset to clear the form. 
 ## Behaviour Driven Development  
 I established that the application should handle four categories of triangles;
 equilateral, isosceles, scalene and no triangle, when it receives 3 equal lengths;
 2 equal lengths; no equal length; and 2 lengths whose sum is equal or less than
 a third side. It should return equilateral, isosceles, scalene or no triangle.
+=======
+## Behaviour Driven Development
+|Behaviour                | Input Example  | Output Example     |
+|Application should handle|When it receives| It should return   |
+|-------------------------|----------------|--------------------|
+|Equilateral              |5,5,5           |Equilateral Triangle|
+|Isosceles                |5,5,6           |Isosceles Triangle  |
+|Scalene                  |5,4,3           |Scalene Triangle    |
+|No Triangle              |5,5,5           |Not a Triangle      |
+>>>>>>> gh-pages
 ### License
 *MIT License*
 

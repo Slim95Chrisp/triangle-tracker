@@ -4,7 +4,7 @@
 ## Description
 The application will return the type of triangle when it receives length values.
 These are equilateral, isosceles, scalene and no triangle. A user will be required
-to input 3 length values for each side of a triangle.  
+to input 3 length values for each side of a triangle.
 ## Technologies Used
 Languages used are JavaScript, HTML and CSS. A web browser such as Chrome and
 Safari would be used to launch the applicaction. The challenge was editing
@@ -12,13 +12,13 @@ the syntax. Using the Chrome console & JSFiddle helped.
 ## Setup Instructions
 Input the length values in the form and click Submit.
 ## Behaviour Driven Development
- Behaviour | Input Example | Output Example
- Application should handle | When it receives | It should return
- --- | --- | ---
- Equilateral | 5,5,5 | Equilateral Triangle
- Isosceles | 5,5,6 | Isosceles Triangle
- Scalene | 5,4,3 | Scalene Triangle
- No Triangle | 5,5,5 | Not a Triangle 
+| Behaviour     | Input Example | Output Example |
+| ------------- |:-------------:| -----:|
+| Equilateral   | 5,5,5 | Equilateral Triangle |
+| Isosceles     | 5,5,6   | Isosceles Triangle |
+| Scalene       | 5,4,3      | Scalene Triangle |
+| No Triangle    | 9,4,3 | Not a Triangle  |
+
 ### License
 *MIT License*
 

@@ -7,9 +7,10 @@ These are equilateral, isosceles, scalene and no triangle. A user will be requir
 to input 3 length values for each side of a triangle.  
 ## Technologies Used
 Languages used are JavaScript, HTML and CSS. A web browser such as Chrome and
-Safari would be used to launch the appliaction. An interesting challenge...
+Safari would be used to launch the applicaction. The challenge was editing
+the syntax. Using the Chrome console & JSFiddle helped.
 ## Setup Instructions
-
+Input the length values in the form and click Submit. 
 ## Behaviour Driven Development  
 I established that the application should handle four categories of triangles;
 equilateral, isosceles, scalene and no triagle, when it receives 3 equal lengths;

@@ -6,27 +6,30 @@
     <title>Triangle Tracker</title>
   </head>
   <body>
-
     <h1>Triangle Tracker</h1>
-    <p>Triangle Tracker will enable you determine the type of triangle.
-    <h2>How to:</h2>
-    <ol>
-      <li>Input a length for each of the 3 sides; A; B; & C.</li>
-      <li>Click on the <strong>Submit</strong> button</li>
-    </ol>
-
-    <form>
-      A: <br>
-      <input type="text" placeholder="Side A" id="sideA"><br>
-      B: <br>
-      <input type="text" placeholder="Side B" id="sideB"><br>
-      C: <br>
-      <input type="text" placeholder="Side C" id="sideC"><br>
-      <button type="button" id="submit" onClick="triangle()">Submit</button>
-    </form>
-
-
-
-
+    <p>Triangle Tracker will enable you determine the type of triangle.</p>
+    <div class="how">
+      <h2>How to:</h2>
+      <ol>
+        <li>Input a length for each of the 3 sides; A; B; & C.</li>
+        <li>Click on the <strong>Submit</strong> button</li>
+        <li>To clear the form, clock on <strong>Reset</strong> </li>
+      </ol>
+    </div>
+    <div class="form">
+      <form>
+        <br>
+        <input type="text" placeholder="Side A" id="sideA"><br>
+        <br>
+        <input type="text" placeholder="Side B" id="sideB"><br>
+        <br>
+        <input type="text" placeholder="Side C" id="sideC"><br>
+        <div class="button">
+          <br>
+          <button type="button" id="submit" onClick="triangle()">Submit</button><br>
+          <input type="reset" value="Reset">
+        </div>
+       </form>
+    </div>
   </body>
 </html>

@@ -10,7 +10,7 @@ Languages used are JavaScript, HTML and CSS. A web browser such as Chrome and
 Safari would be used to launch the applicaction. The challenge was editing
 the syntax. Using the Chrome console & JSFiddle helped.
 ## Setup Instructions
-Input the length values in the form and click Submit. 
+Input the length values in the form and click Submit.
 ## Behaviour Driven Development  
 I established that the application should handle four categories of triangles;
 equilateral, isosceles, scalene and no triagle, when it receives 3 equal lengths;

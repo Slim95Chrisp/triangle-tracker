@@ -12,13 +12,13 @@ the syntax. Using the Chrome console & JSFiddle helped.
 ## Setup Instructions
 Input the length values in the form and click Submit.
 ## Behaviour Driven Development
-|Behaviour|Input Example| Output Example|
-|Application should handle|When it receives|It should return|
-|---|---|---|
-|Equilateral|5,5,5|Equilateral Triangle|
-|Isosceles|5,5,6 |Isosceles Triangle|
-|Scalene|5,4,3|Scalene Triangle|
-|No Triangle|5,5,5|Not a Triangle|
+| Behaviour | Input Example | Output Example |
+| Application should handle | When it receives | It should return |
+| --- | --- | --- |
+| Equilateral | 5,5,5 | Equilateral Triangle |
+| Isosceles | 5,5,6 | Isosceles Triangle |
+| Scalene | 5,4,3 | Scalene Triangle |
+| No Triangle | 5,5,5 | Not a Triangle |
 ### License
 *MIT License*
 

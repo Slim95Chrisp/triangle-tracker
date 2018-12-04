@@ -1,15 +1,15 @@
 var triangle = function () {
-  var sideA = parseFloat(document.getElementById("sideA").value);
-  var sideB = parseFloat(document.getElementById("sideB").value);
-  var sideC = parseFloat(document.getElementById("sideC").value);
+  var sideA = parseInt(document.getElementById("sideA").value);
+  var sideB = parseInt(document.getElementById("sideB").value);
+  var sideC = parseInt(document.getElementById("sideC").value);
 
   if (sideA === sideB && sideB === sideC && sideC === sideA) {
-    alert("Equilateral triangle");
+      alert("Equilateral triangle");
   } else if (sideA === sideB || sideA === sideC || sideB === sideC) {
-    alert("Isosceles Triangle");
-  } else if (sideA !=== sideB && sideB !=== sideC) {
+      alert("Isosceles Triangle");
+  } else if ((sideA+sideB) <=sideC ||(sideB+sideC)<=sideA || (sideA+sideC)<=sideB) {
+      alert("Not a Triangle");
+  } else {
     alert("Scalene Triangle");
-  } else
-    alert("Not a Triangle");
   }
 }

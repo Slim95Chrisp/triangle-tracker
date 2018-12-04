@@ -1,5 +1,5 @@
 # Triangle Tracker
-#### The application enables a user to determine different type of triangle. 30/11/2018
+#### The application enables a user to determine different types of triangles based on their length values. 30/11/2018
 #### Authors **Chrispus Ngure**
 ## Description
 The application will return the type of triangle when it receives length values.

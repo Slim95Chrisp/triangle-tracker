@@ -1,3 +1,4 @@
+var triangle = ["sideA", "sideB", "sideC"]
 var triangle = function () {
   var sideA = parseInt(document.getElementById("sideA").value);
   var sideB = parseInt(document.getElementById("sideB").value);

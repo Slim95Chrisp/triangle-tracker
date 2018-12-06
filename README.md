@@ -10,7 +10,8 @@ Languages used are JavaScript, HTML and CSS. A web browser such as Chrome and
 Safari would be used to launch the applicaction. The challenge was editing
 the syntax. Using the Chrome console & JSFiddle helped.
 ## Setup Instructions
-Input the length values in the form and click Submit.
+Scroll down to the form. Input the length values for Side A, Side B and Side C.
+Click **Submit**. To input another set of lengths, click **Reset**. 
 ## Behaviour Driven Development
 | Behaviour     | Input Example | Output Example |
 | ------------- |:-------------:| -----:|
